@@ -1,9 +1,6 @@
 # Atsuta
 Networking Library in IOCP
 
-To use, download the lib and headers found here : https://github.com/yousopunny/Atsuta/releases/tag/v1.0
-Or clone this git for headers.
-
 Example usage:
 ```cpp
 #include <iostream>
