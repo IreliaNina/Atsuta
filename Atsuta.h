@@ -30,19 +30,3 @@ private:
 };
 #endif;
 
-
-
-/*
-Atsuta should hold an arraylist of internalhandles
-internalhandles should hold an arraylist of atsutasockets
-each socket structure should hold two atsutaoverlapped one for read and one for write
-each overlapped should hold an atsutadata
-each data sohuld have a 4096 byte buffer and length
-externalhandle pointer should point to the buffer location
-*/
-
-/*
-On second thought, does AtsutaHandleInternal even need to eixst?
-Atsuta can just hold an arralist of AtsutaSocket and socket can hold an AtsutaHandle along with an AtsutaOverlapped..
-
-*/
