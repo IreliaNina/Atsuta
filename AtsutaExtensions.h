@@ -9,8 +9,8 @@
 #include <functional>
 #include <vector>
 #include <set>
-#include "Nagoy.hpp"
-#pragma comment(lib,"Nagoy")
+#include <WinInet.h>
+#include <tuple>
 #pragma comment(lib,"Mswsock.lib")
 #pragma comment(lib,"WS2_32")
 class AtsutaAcceptEx {
